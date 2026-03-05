@@ -1,8 +1,38 @@
 
 title: Start
+position: -82,-242
 ---
 Dr Carins: Hello, I'm Dr Carins.  Are you in need of medical attention?
-->Lyra: I'm form the town of Lost Hope.  Almost everyone there is sick and we don't know what causing it.  We need help.
+->Lyra: I'm from the town of Lost Hope.  Almost everyone there is sick and we don't know what causing it.  We need help.
+    <<jump Sickness>>
 ->Lyra: Can you tell me about yourself?
+    <<jump OffTopic>>
+===
 
+title: Sickness
+position: -57,102
+---
+Dr Carins: ...Lost Hope, interesting name... Not ringing any bells though...
+Dr Carins: Is that the town to the south of here?
+Lyra: Yes!
+Dr Carins: Good. Could you please describe the symptoms of this sickness?
+->Lyra: I don't know! There a lot of different things.
+    Dr Carins: Did many people have serious fevers and coughs?
+    Lyra: Some did! Others were constantly throwing up.
+    Dr Carins: What about blood?  Were there many coughing or throwing up blood?
+    Lyra: Yes, but that only started recently.
+->Lyra: People were almost always coughing or throwing up.
+    Dr Carins: Were there any other symptoms?
+    Lyra: Blood. The other day, people started coughing up blood.
+Dr Carins: That's sounds pretty serious.  When did this sickness start?
+Lyra: About a month ago.
+Lyra: By the end of the week, about half the town had taken ill
+===
+
+title: OffTopic
+position: 381,-119
+---
+Dr Carins: Sure, what do wish to know?
+->Lyra: What do you do?
+->Lyra: What is this place?
 ===
