@@ -33,6 +33,13 @@ title: OffTopic
 position: 381,-119
 ---
 Dr Carins: Sure, what do wish to know?
-->Lyra: What do you do?
 ->Lyra: What is this place?
+    <<detour CampDawn>>
+===
+
+title: CampDawn
+position: 192,192
+---
+Dr Carins: This is Camp Dawn.  We are apart of the United Nations Cascade Relied Agency.
+DR Carins: We were set up three months ago to provide primary care to
 ===
